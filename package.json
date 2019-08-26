@@ -1,12 +1,29 @@
 {
-  "name": "NodeJs-SimpleRestfulApi",
+  "name": "nodejs-simplerestfulapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple nodejs restful api user management CRUD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "UNOR CHINEDUM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.1",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinyart/NodeJs-SimpleRestfulApi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chinyart/NodeJs-SimpleRestfulApi/issues"
+  },
+  "homepage": "https://github.com/chinyart/NodeJs-SimpleRestfulApi#readme"
 }
